@@ -13,10 +13,12 @@ else {si no se cumple la condicion logica}
 */
 
 console.log(isNaN (numero1))
-//operador logico NOT !
+//operador logico NOT se escrbe asi: !, ADN y se escribe asi: &&
 // !true = false
 // !false = true
-if ( !isNaN(numero1)){
+
+//El contenido de la variable numero1 es un numero Y tambien el contenido de la variable numero2 es un numero
+if ( !isNaN(numero1) && !isNaN(numero2)){
   const resultado = numero1 + numero2;
   console.log("El resultado es:" + resultado);
 }else{
